@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click", function () {
   var ageInDays = (currentYear - userAge) * 365;
   var h1 = document.createElement("h1");
   var textAnswer = document.createTextNode(
-    "your are " + ageInDays + " days old."
+    "you are " + ageInDays + " days old."
   );
   h1.setAttribute("id", "ageInDays");
   h1.appendChild(textAnswer);
